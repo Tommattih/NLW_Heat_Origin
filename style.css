@@ -86,7 +86,6 @@ ul {
   gap: 0.5rem;
 }
 
-/* TABLET */
 @media only screen and (min-width: 760px) {
   body {
     background-color: #121214;
@@ -109,16 +108,5 @@ ul {
 
   ul {
     margin-top: 2rem;
-  }
-}
-
-/* DESKTOP */
-@media only screen and (min-width: 940px) {
-  .avatar {
-    margin-top: 27rem;
-  }
-
-  p {
-    margin-top: 2.5rem;
   }
 }
