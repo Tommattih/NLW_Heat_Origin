@@ -87,7 +87,7 @@ ul {
 }
 
 /* TABLET */
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 760px) {
   body {
     background-color: #121214;
     width: 100vw;
