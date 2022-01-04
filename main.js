@@ -1,7 +1,6 @@
 const linksSocialMedia = {
   github: 'Tommattih',
   linkedin: '/in/tommattih/',
-  programathor: '.br/users/86969',
   facebook: '/mateus.lins.37266',
   instagram: '/tommattihtom'
 }

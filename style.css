@@ -42,6 +42,11 @@ main {
   position: absolute;
   top: -15px;
   z-index: 1;
+  animation: rotate 4s infinite linear;
+}
+
+@keyframes rotate{
+  to{transform: rotate(360deg);}
 }
 
 .avatar > img {
@@ -108,5 +113,15 @@ ul {
 
   ul {
     margin-top: 2rem;
+  }
+
+  #links{
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 0.5rem;
+  }
+  
+  a:hover{
+    filter: brightness(1.3);
   }
 }
